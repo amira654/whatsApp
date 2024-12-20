@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 
+import 'features/stories/view/screens/updates.dart';
 import 'features/home/view/screens/whatsApp.dart';
 
 class MyApp extends StatelessWidget {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       debugShowMaterialGrid: false,
      debugShowCheckedModeBanner: false,
      // showPerformanceOverlay: true,
-      home: const Home(),
+      home: const Updates(),
     );
   }
 }
