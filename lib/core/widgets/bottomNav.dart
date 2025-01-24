@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+import '../../features/home/view/screens/whatsApp.dart';
+import '../../features/stories/view/screens/updates.dart';
+
 class BottomNav extends StatefulWidget {
   BottomNav({super.key});
 
@@ -13,6 +16,8 @@ class _BottomNavState extends State<BottomNav> {
     setState(() {
       _selectedIndex = index;
     });
+
+   
   }
 
   @override
@@ -26,7 +31,10 @@ class _BottomNavState extends State<BottomNav> {
       currentIndex: _selectedIndex,
       onTap: _onItemTapped,
       items: const <BottomNavigationBarItem>[
-        BottomNavigationBarItem(icon: Icon(Icons.chat), label: "Chats"),
+        BottomNavigationBarItem(
+          icon: Icon(Icons.chat),
+          label: "Chats",
+        ),
         BottomNavigationBarItem(icon: Icon(Icons.update), label: "Updates"),
         BottomNavigationBarItem(icon: Icon(Icons.group), label: "Communities"),
         BottomNavigationBarItem(icon: Icon(Icons.call), label: "Calls"),

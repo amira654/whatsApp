@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nti/features/stories/view/widgets/build_channels.dart';
 
-import '../../../../core/style/bottomNav.dart';
-import '../../../../core/style/customAppBar.dart';
+import '../../../../core/widgets/bottomNav.dart';
+import '../../../../core/widgets/customAppBar.dart';
 import '../../model/channels_model.dart';
 import '../../model/statues_model.dart';
 import '../widgets/build_statues.dart';
